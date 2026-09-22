@@ -1,2 +1,2 @@
-fastapi-poe⁠
-squareup-sdk⁠
+fastapi-Poe
+squareup-sdk 
