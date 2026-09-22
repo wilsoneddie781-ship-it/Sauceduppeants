@@ -1,6 +1,6 @@
 from fastapi_poe import PoeApp, ProtocolRequest, PartialResponse from square.client import Client
 app = PoeApp()
-⁠@app.router.post("/query")
+⁠
 async def get_response(request: ProtocolRequest):⁠
         result = client.locations.list_locations()
     if result.is_success():
